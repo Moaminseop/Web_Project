@@ -1,0 +1,67 @@
+.bookBox {
+  display: flex;
+  height: 65%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookBox>.main {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookBox>.main>.prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 15%;
+}
+
+.bookBox>.main>.mainShow {
+  width: 70%;
+  height: 100%;
+}
+
+.bookBox>.main>.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 15%;
+}
+
+.transButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+  opacity: 0.5;
+  background-color: #000000;
+  border-style: none;
+  cursor: pointer;
+}
+
+.transButton:hover {
+  opacity: 1;
+}
+
+.transButton>.buttonSvg{
+  width: 11px;
+  height: 14px;
+  fill : #ffffff;
+}
+
+.transButton>.buttonSvg-1{
+  width: 11px;
+  height: 14px;
+  fill : #ffffff;
+  transform-origin: center center;
+  transform: rotate(180deg);
+}

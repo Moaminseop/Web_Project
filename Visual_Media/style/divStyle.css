@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 70%;
+  width: 60%;
+  justify-items : center;
+}
+
+.container>div {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  color : #171717;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.container>#picture {
+  align-self: end;
+}
+
+.container>#video {
+  align-self: end;
+}

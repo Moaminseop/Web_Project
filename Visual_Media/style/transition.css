@@ -1,0 +1,52 @@
+
+.transition-1 {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 101;
+  background-color: #ffffff;
+  transition: 0.5s ease-out;
+}
+
+.transition-2 {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 101;
+  background-color: #ffffff;
+  transition: 0.5s ease-out;
+}
+
+.transition-3 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 100%;
+  z-index: 101;
+  background-color: #ffffff;
+  transition: 0.5s ease-out;
+}
+
+.transition-1.isActive {
+  right: 0px;
+}
+
+.transition-2.isActive {
+  left: 0px;
+}
+
+.transition-3.isActive {
+  bottom: 0px;
+}
+
+.transition-1.isActive-1 {
+  right: -50%;
+}
+
+.transition-2.isActive-2 {
+  left: -50%;
+}
