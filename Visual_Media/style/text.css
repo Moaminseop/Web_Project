@@ -1,37 +1,79 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 .bookBox {
-  display: flex;
-  height: 65%;
+  position: relative;
+  height: 75%;
   width: 80%;
+  overflow: hidden;
+}
+
+.bookBox>.booklistBox{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.booklistBox>.booklist {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: none;
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
   align-items: center;
   justify-content: center;
 }
 
+.booklist>li{
+  height: 100%;
+  margin: 0 25px;
+}
+
+.booklist>:nth-child(3) {
+  left: 100%;
+}
+
 .bookBox>.main {
+  position: absolute;
+  top: 0px;
   display: flex;
   height: 100%;
-  width: 60%;
+  width: 100%;
   align-items: center;
   justify-content: center;
+  margin : auto;
+  
 }
 
 .bookBox>.main>.prev {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 10%;
   height: 15%;
 }
 
 .bookBox>.main>.mainShow {
-  width: 70%;
+  width: 400px;
   height: 100%;
+  
 }
 
 .bookBox>.main>.next {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 10%;
   height: 15%;
 }
 
@@ -43,7 +85,7 @@
   height: 60px;
   border-radius: 40px;
   opacity: 0.5;
-  background-color: #000000;
+  background-color: #ffffff;
   border-style: none;
   cursor: pointer;
 }
@@ -55,13 +97,13 @@
 .transButton>.buttonSvg{
   width: 11px;
   height: 14px;
-  fill : #ffffff;
+  fill : #000000;
 }
 
 .transButton>.buttonSvg-1{
   width: 11px;
   height: 14px;
-  fill : #ffffff;
+  fill : #000000;
   transform-origin: center center;
   transform: rotate(180deg);
 }

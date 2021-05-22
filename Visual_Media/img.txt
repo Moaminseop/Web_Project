@@ -1,0 +1,3 @@
+<li class="bookli"><img src="image/book_image/middle_passage.jpeg"></li>
+        <li class="bookli"><img src="image/book_image/12rules.jpg"></li>
+        <li class="bookli"><img src="image/book_image/kluge.jpg"></li>

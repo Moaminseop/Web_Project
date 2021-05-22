@@ -16,9 +16,20 @@
 
     <div class="bookBox">
 
+      <div class="booklistBox">
+        <ul class="booklist">
+          <li class="bookli"><a href="https://google.com"><img src="image/book_image/beyond_order.jpeg"></a></li>
+          <li class="bookli"><img src="image/book_image/toHave_or_toBe.jpeg"></li>
+          <li class="bookli"><a href="https://google.com"><img src="image/book_image/organized_mind.jpg"></a></li>
+          <li class="bookli"><img src="image/book_image/middle_passage.jpeg"></li>
+          <li class="bookli"><img src="image/book_image/12rules.jpg"></li>
+          
+        </ul>
+      </div>
+
       <div class="main">
         <div class="prev">
-          <button type="button" name="button" class="transButton">
+          <button type="button" name="button" class="transButton" id="prevButton">
             <svg class="buttonSvg-1">
               <path d="M1.78 13.013 L7.68 7 1.78.987 2.75 0l6.875 7-6.875 7 Z"></path>
             </svg>
@@ -29,7 +40,7 @@
         </div>
 
         <div class="next">
-          <button type="button" name="button" class="transButton">
+          <button type="button" name="button" class="transButton" id="nextButton">
             <svg class="buttonSvg">
               <path d="M1.78 13.013 L7.68 7 1.78.987 2.75 0l6.875 7-6.875 7 Z"></path>
             </svg>
@@ -37,9 +48,11 @@
         </div>
       </div>
 
+
     </div>
 
     <script type="text/javascript" src="./scripts/pageTransition.js"></script>
+    <script type="text/javascript" src="./scripts/text.js"></script>
   </body>
 
 </html>
