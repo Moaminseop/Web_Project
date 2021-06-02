@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+}
+
+.main>.post{
+    background-color: rgb(24, 102, 236);
+    height: 95%;
+    width: 100%;
+}

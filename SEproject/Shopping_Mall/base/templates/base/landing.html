@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>고양이 귀여워!</title>
+    <link rel="stylesheet" href="{% static 'base/css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/main.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="header_contents">
+                <div class="logo">
+                    <a href="/">Mall</a>
+                </div>
+
+                <div class="search_bar">
+                    <input type="text" class="form-control" placeholder="고양이 귀여어!" id="search-input">
+                    <button>검색</button>
+                </div>
+
+                <nav class="menu">
+                    <a href="/">Home</a>
+                    <a href="/product/">Product</a>
+                    <a href="/cart/">Order</a>
+                </nav>
+
+                <div class="account">
+                    <a href="/user/">회원가입</a>
+                    <a href="/">로그인</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="post"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
