@@ -4,6 +4,6 @@ from .models import Order
 # Register your models here.
 
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ('user', 'product', 'quantity')
+    list_display = ('product', 'quantity')
 
 admin.site.register(Order, OrderAdmin)
