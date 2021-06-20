@@ -51,6 +51,11 @@ body{
     width: 15%;
 }
 
+.search_bar>.form-control{
+    padding-left: 10px;
+    font-size: large;
+}
+
 .header_contents>.menu {
     display: flex;
     font-size: 200%;

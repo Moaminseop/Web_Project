@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+a {color: #171717; text-decoration:none}
+
 body {
     background-color: rgb(235, 246, 255);
 }
@@ -20,6 +22,8 @@ body {
     align-items: center;
     border-bottom: solid 1px rgb(214, 222, 235);
     width: 100%;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .contents {
@@ -41,6 +45,7 @@ body {
 .form-control {
     width: 100%;
     height: 48px;
+    padding-left: 10px;
 }
 
 #username {
@@ -58,4 +63,3 @@ body {
     height: 40px;
     font-size: large;
 }
-
