@@ -24,8 +24,8 @@
 
                 <nav class="menu">
                     <a href="/">Home</a>
-                    <a href="/product/">Product</a>
-                    <a href="/cart/">Order</a>
+                    <a href="{% url 'product:productlist' %}">Product</a>
+                    <a href="{% url 'order:orderlist' %}">Cart</a>
                 </nav>
                 {% if user.is_authenticated %}
                 <div class="account">
